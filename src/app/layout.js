@@ -1,3 +1,10 @@
+export const metadata = {
+  openGraph: {
+    title: "생축",
+    description: "수정하기",
+    images: [{ url: "https://ibb.co/jJ6jcPD" }],
+  },
+};
 import "./globals.css";
 
 export default function RootLayout({ children }) {
