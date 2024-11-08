@@ -25,9 +25,8 @@ export default function Home() {
   const [isBoomEnd, setIsBoomEnd] = useState(false);
   const [messageIndex, setMessageIndex] = useState(0);
   const [nowMessage, setNowMessage] = useState(BUBBLE_MESSAGE[messageIndex]);
-  const { timeLeft } = useTimeLeft();
+  const { timeLeft, isDDay } = useTimeLeft();
 
-  const isDDay = true;
   useEffect(() => {
     const messageIndexInterval = setInterval(() => {
       setMessageIndex((prev) => {
