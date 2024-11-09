@@ -120,9 +120,10 @@ export default function LetterPage() {
                     onClick={() => {
                       setIsOpenExample(false);
                     }}
-                    className="z-40 absolute top-[10%] left-1/2 -translate-x-1/2 opacity-60"
+                    className="z-40 absolute flex items-center top-[10%] left-1/2 -translate-x-1/2 opacity-60"
                   >
                     <CancelIcon className="w-[50px] h-[50px]" />
+                    <span className="text-xl">눌러서 닫기</span>
                   </button>
                   <Image
                     src={exampleLetter}
