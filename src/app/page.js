@@ -75,7 +75,7 @@ export default function Home() {
       )}
 
       <Card>
-        <div className="h-[500px]">
+        <div className="h-[500px] bg-white">
           {!isDDay ? (
             <AnimatePresence>
               <motion.div
