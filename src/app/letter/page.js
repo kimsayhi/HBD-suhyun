@@ -100,11 +100,11 @@ export default function LetterPage() {
       <Card>
         <div className="w-full h-full p-6">
           {!isWrite ? (
-            <div className="h-[400px] flex flex-col">
+            <div className="h-[400px] font-letter flex flex-col">
               <span className="text-base justify-start  w-full  font-bold">
                 수현이에게 생일 축하 메시지를 남겨주세요. <br />
-                길게 써주셔도, 간단하게 작성해주셔도 좋습니다! 다음과 같이
-                전달될 예정입니다.
+                길게 써주셔도, 간단하게 작성해주셔도 좋습니다!
+                <br /> 다음과 같이 전달될 예정입니다.
               </span>
               <button
                 onClick={() => {
