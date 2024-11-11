@@ -1,10 +1,18 @@
+
 export const metadata = {
   openGraph: {
-    title: "생축",
-    description: "수정하기",
-    images: [{ url: "https://ibb.co/jJ6jcPD" }],
+    title: "사랑하는 수현이에게",
+    description: "생일축하해 수현아",
+    images: [
+      { url: "/gift-box.jpg", width: 800, height: 400, alt: "선물상자이미지" },
+    ],
   },
 };
+
+export default function layout({ children }) {
+  return <>{children}</>;
+}
+
 import "./globals.css";
 
 export default function RootLayout({ children }) {
