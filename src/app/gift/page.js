@@ -8,7 +8,10 @@ import YouTube from "react-youtube";
 export default function giftPage() {
   return (
     <div className="items-center  w-full mb-[100px] flex flex-col gap-[100px]">
-      <YouTube videoId="8OYTUFtN3V8" opts={{ playerVars: { autoplay: 1 } }} />
+      <YouTube
+        videoId="8OYTUFtN3V8"
+        opts={{ width: "320px", height: "180px", playerVars: { autoplay: 1 } }}
+      />
       <FirstCard />
       <MyLetterCard />
       <PeopleLettersCard />

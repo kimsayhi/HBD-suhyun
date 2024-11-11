@@ -10,9 +10,9 @@ export default function useTimeLeft() {
   useEffect(() => {
     const targetDate = dayjs()
       .month(10)
-      .date(12)
-      .hour(0)
-      .minute(0)
+      .date(11)
+      .hour(19)
+      .minute(41)
       .second(0)
       .millisecond(0);
     const initialDuration = dayjs.duration(targetDate.diff(dayjs()));
