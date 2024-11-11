@@ -3,7 +3,7 @@ export const metadata = {
     title: "사랑하는 수현이에게",
     description: "생일축하해 수현아",
     images: [
-      { url: "/gift-box.jpg", width: 800, height: 400, alt: "선물상자이미지" },
+      { url: "/gift-box.png", width: 800, height: 400, alt: "선물상자이미지" },
     ],
   },
 };
