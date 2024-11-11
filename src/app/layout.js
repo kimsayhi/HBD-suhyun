@@ -1,4 +1,3 @@
-
 export const metadata = {
   openGraph: {
     title: "사랑하는 수현이에게",
@@ -8,10 +7,6 @@ export const metadata = {
     ],
   },
 };
-
-export default function layout({ children }) {
-  return <>{children}</>;
-}
 
 import "./globals.css";
 
